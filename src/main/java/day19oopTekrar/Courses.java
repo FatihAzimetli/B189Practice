@@ -1,10 +1,15 @@
 package day19oopTekrar;
 
-public class Courses {
+public abstract class Courses {
 
 
-public void Math(){
-    System.out.println("Toplama");
+public abstract void Math();
+
+
+//public abstract void since();
+
+public void art(){
+    System.out.println("Lear art");
 }
 
 
